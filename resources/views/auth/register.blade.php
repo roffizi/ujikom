@@ -1,3 +1,6 @@
+@section('title')
+Sign Up | Laundry Bahari
+@endsection
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -70,6 +73,7 @@
                 </x-primary-button>
             </div>
         </form>
+        
     </x-auth-card>
 </x-guest-layout>
 
@@ -174,10 +178,14 @@
                             <div class="flex -mx-3">
                                 <div class="w-full px-3 mb-5">
                                     
-                                    <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">LOGIN</button>
+                                    <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">Register</button>
                                 </div>
                             </div>
                         </form>
+                        <div class="w-full px-3 mb-5">
+                            do you have account?
+                                <a href="{{ route('login') }}">Login</a>
+                                </div>
                     </div>
                 </div>
             </div>

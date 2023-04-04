@@ -54,14 +54,14 @@ class DatabaseSeeder extends Seeder
         $role3->givePermissionTo([$permission3, $permission4, $permission5, $permission6, $permission7, $permission8, $permission9, $permission10, $permission11]);
 
         $o = Outlet::create([
-            'nama' => 'Barrr',
+            'nama' => 'roffiz',
             'telepon' => '089862659825'
         ]);
 
         User::create([
             'outlet_id' => $o->id,
-            'name' => 'Barrr',
-            'email' => 'barr@example.com',
+            'name' => 'roffiz',
+            'email' => 'roffi@example.com',
             'telephone' => '089862659825',
             'password' => bcrypt(123123123),
         ])->assignRole($role1);

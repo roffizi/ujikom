@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+Karyawan | Laundry Bahari
+@endsection
 @section('content')
 
 <div class="sm:px-6 w-full">

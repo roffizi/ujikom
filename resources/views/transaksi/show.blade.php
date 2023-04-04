@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+Detail Transaksi | Laundry Bahari
+@endsection
 @section('content')
 <section class="py-4 md:py-5">
     <div class="max-w-5xl mx-auto py-12 bg-white">

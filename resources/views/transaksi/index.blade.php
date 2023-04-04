@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+Transaksi | Laundry Bahari
+@endsection
 @section('content')
 
 <div class="sm:px-6 w-full">

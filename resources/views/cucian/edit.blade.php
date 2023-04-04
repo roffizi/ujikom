@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+Edit Cucian | Laundry Bahari
+@endsection
 @section('content')
 <div class="md:px-16 md:pt-10  bg-gray-100 flex items-center justify-center">
     <div class="container max-w-screen-lg mx-auto">
